@@ -6,6 +6,8 @@ int main()
 	array<int,5>values1{11,22,33,44,55};
 	array<int,5>values2{10,20,30,40,50};
 	array<int ,5>::iterator it;
+	cout<<values1.front()<<endl;
+	cout<<values1.back()<<endl;
 	for(it=values1.begin();it !=values1.end();it++)
 	{
 		cout<<*it<<" ";
